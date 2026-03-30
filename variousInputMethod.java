@@ -27,5 +27,8 @@ class variousInputMethod {
         System.out.print("Enter a line of text: ");
         String line = bf.readLine();
         System.out.println("You entered: " + line);
+        System.out.print("Enter an integer: ");
+        int num = Integer.parseInt(bf.readLine()); // to read an integer using BufferedReader, we need to parse the string input to an integer using Integer.parseInt() method.
+        System.out.println("You entered: " + num);
     }
 }
