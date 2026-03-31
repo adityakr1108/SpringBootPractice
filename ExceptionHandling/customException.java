@@ -23,6 +23,11 @@ class exceptionHandling {
     }
 }
 
+
+class tryWithOutCatchAndFinally{
+    tr
+}
+
 class customException {
     public static void main(String[] args) {
         int a = 30;
